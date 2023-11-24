@@ -1,7 +1,8 @@
 .demo {
     /* for IE10+ touch devices */
-    touch-action:none;
+    touch-action: none;
 }
+
 /** JSPLUMB ARTEFACTS **/
 .jtk-overlay {
     z-index: 51;
@@ -17,12 +18,10 @@
 }
 
 /** ELEMENTS **/
-.littledot
-{
+.littledot {
     cursor: pointer;
     width: 5px;
     height: 5px;
-   
     z-index: 5;
     position: absolute;
     border-radius: 31px;
@@ -36,61 +35,85 @@
 .dropHover {
     border: 1px solid orange;
 }
-.button{
-background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 /** ELEMENT POSITIONS **/
 #ld1 {
     top: 20em;
-    left: 0.5em;
+    left: 1.5em;
 }
 
 #ld2 {
     top: 20em;
-    left: 3.5em;
+    left: 5em;
 }
 
 #ld3 {
-    top: 11em;
-    left: 15em;
+    top: 14em;
+    left: 12em;
 }
 
 #ld4 {
-    top: 11em;
-    left: 19em;
+    top: 14em;
+    left: 17em;
 }
 
 #ld5 {
-    top: 38em;
-    left: 15em;
+    top: 24em;
+    left: 12.5em;
 }
+
 #ld6 {
-    top: 38em;
-    left: 18em;
+    top: 24em;
+    left: 16.5em;
 }
+
 #ld7 {
-    top: 38em;
-    left: 23em;
+    top: 24em;
+    left: 20.5em;
 }
+
 #ld8 {
-    top: 38em;
-    left: 26em;
+    top: 24em;
+    left: 24.5em;
+}
+
+#ld9 {
+    top: 1em;
+    left: 0.6em;
+}
+
+#ld10 {
+    top: 1em;
+    left: 4em;
+}
+
+#ld11 {
+    top: 1em;
+    left: 8em;
+}
+
+#ld12 {
+    top: 1em;
+    left: 12em;
 }
 
 
-   
 
 
-path, .jtk-endpoint {
+path,
+.jtk-endpoint {
     cursor: pointer;
 }
