@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"The relation between ratio of resistance arms and ratio of resistance arms of second bridge is _________.","answers":{"a":"Unequal","b":"Equal","c":"Twice","d":"One forth"},"correctAnswer":"b"},
+{"question":"Why Kelvin bridge is used for measurement of low resistance?","answers":{"a":"Due to e.m.f source used","b":"Due to a large current flow","c":"Due to contact and lead resistance","d":"Due to power dissipation across the circuit"},"correctAnswer":"c"},
+{"question":"What is the condition to achieve a high sensitivity in a Kelvin bridge?","answers":{"a":"Low voltage","b":"High power","c":"Medium resistance","d":"High current"},"correctAnswer":"d"},
+{"question":"Kelvin bridge can be calibrated to read _________.","answers":{"a":"Inductance and Quality factor value","b":"Capacitance only","c":"Power and Voltage","d":"Current and frequency"},"correctAnswer":"a"},
+{"question":"Why Kelvin bridge cannot be used for the measurement of low Quality factor value?","answers":{"a":"Due to thermoelectric effect","b":"Due to balance problem","c":"Due to the dull detector used","d":"Due to temperature"},"correctAnswer":"b"}]
