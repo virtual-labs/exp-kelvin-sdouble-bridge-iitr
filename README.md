@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electrical Engineering
 :--|:--|
 <b> Lab | <b> Electrical Measurements Lab
-<b> Experiment|     <b> Measurement of low resistance by kelvin's double bridge.
+<b> Experiment|     <b>3. Measurement of low resistance by kelvin's double bridge.
 
 ### About the Experiment 
 

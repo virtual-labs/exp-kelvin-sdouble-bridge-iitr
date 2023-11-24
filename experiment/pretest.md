@@ -1,43 +1,37 @@
-## Pre-test
+## Pre Test
 #### Please attempt the following questions
-<br>
 
 Q1. Kelvin’s bridge consists of _________.<br>
 
-<b>A   double bridge</b><br>
-B   single bridge<br>
-C   half bridge<br>
-D   three fourth bridge<br><br>
-
+a.   Double bridge<br>
+b.   Single bridge<br>
+c.   Half bridge<br>
+d.   None of the above<br>
 
 Q2. The range of resistance measured in a Kelvin bridge is _________.<br>
  
-A   10Ω to 10 mΩ<br>
-<b>B   1Ω to 10 μΩ</b><br>
-C   0.01Ω to 10 MΩ<br>
-D   0.1Ω to 10 nΩ<br><br>
-
+a.   10Ω to 10 mΩ<br>
+b.   1Ω to 10 μΩ<br>
+c.   0.01Ω to 10 MΩ<br>
+d.   0.1Ω to 10 nΩ<br>
 
 Q3. Accuracy of Kelvin bridge is of the order of _________.<br>
  
-A   ±0.5 to ±2 %<br>
-B   ±0.05 to ±0.02 %<br>
-<b>C   ±0.05 to ±0.2 %</b><br>
-D   ±0.005 to ±0.02 %<br><br>
-
-
+a.   ±0.5 to ±2 %<br>
+b.   ±0.05 to ±0.02 %<br>
+c.   ±0.05 to ±0.2 %<br>
+d.   ±0.005 to ±0.02 %<br>
 
 Q4. What is the balance equation of Kelvin bridge?<br>
 
-A   R<sub>x</sub> = R<sub>2</sub>\*R<sub>3</sub>/R<sub>1</sub><br>
-B   R<sub>x</sub> = R<sub>1</sub>\*R<sub>2</sub>/R<sub>3</sub><br>
-C   R<sub>x</sub> = R<sub>1</sub>/R<sub>2</sub><br>
-<b>D   R<sub>x</sub> = R<sub>1</sub>\*R<sub>3</sub>/R<sub>2</sub></b><br><br>
-
+a.   R<sub>x</sub> = R<sub>2</sub>\*R<sub>3</sub>/R<sub>1</sub><br>
+b.   R<sub>x</sub> = R<sub>1</sub>\*R<sub>2</sub>/R<sub>3</sub><br>
+c.   R<sub>x</sub> = R<sub>1</sub>/R<sub>2</sub><br>
+d.   R<sub>x</sub> = R<sub>1</sub>\*R<sub>3</sub>/R<sub>2</sub><br>
 
 Q5. What is the effect of load and contact resistance in Kelvin bridge?<br>
   
-<b>A   independent</b><br>
-B   fully dependent<br>
-C   partially dependent<br>
-D   depends on the resistance value<br><br>
+a.   Independent<br>
+b.   Fully dependent<br>
+c.   Partially dependent<br>
+d.   Depends on the resistance value<br>
