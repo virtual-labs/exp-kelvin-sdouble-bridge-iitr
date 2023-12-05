@@ -1,4 +1,13 @@
-## Introduction
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
+
+### Introduction
 
 <div style="text-align: justify; font-size: 18px;font-family: 'Nunito Sans',sans-serif;">
 A kelvin bridge or kelvin double bridge is a modified version of the Wheatstone bridge, which can measure resistance values in the range between 1 to 0.00001 ohms with high accuracy. It is named because it uses another set of ratio arms and a galvanometer to measure the unknown resistance value. The basic operation of the Kelvin double bridge can be understood from the basic construction and operation of the kelvin bridge.<br>
