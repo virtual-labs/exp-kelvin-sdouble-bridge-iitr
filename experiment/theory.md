@@ -27,19 +27,19 @@ A Wheatstone bridge is used to measure resistance equal to or greater than 1 ohm
 The value of resistance can be calculated as follows:
 <center>
 
-$\frac{r_1}{r_2} = \frac{P}{Q}……(1)$ 
+$$\frac{r_1}{r_2} = \frac{P}{Q}……(1)$$ 
 
 </center>
 
 <center>
 
-$R + r_1 = \frac{P}{Q} * (S+r_2)$   
+$$R + r_1 = \frac{P}{Q} * (S+r_2)$$   
 
 </center>
 
 <center>
 
-$\frac{r_1}{r_1 + r_2} = \frac{P}{P+Q}$
+$$\frac{r_1}{r_1 + r_2} = \frac{P}{P+Q}$$
 
 </center>
 
@@ -47,31 +47,31 @@ We know that,
 
 <center>
 
-$r = r_1 + r_2$ 
+$$r = r_1 + r_2$$ 
 
 </center>
 
 <center>
 
-$r_1 = \frac{P}{P+Q}.r$
+$$r_1 = \frac{P}{P+Q}.r$$
 
 </center>
 
 <center>
 
-$r_2 = \frac{Q}{P+Q}.r$ 
+$$r_2 = \frac{Q}{P+Q}.r$$ 
 
 </center>
 
 <center>
 
-$R + \frac{P}{( P + Q)} * r = \frac{P}{Q} \left (S + \frac{Q}{P+Q}*r \right ) $
+$$R + \frac{P}{( P + Q)} * r = \frac{P}{Q} \left (S + \frac{Q}{P+Q}*r \right ) $$
 
 </center>
 
 <center>
 
-$R = \frac{P}{Q}*S…… (2)$  
+$$R = \frac{P}{Q}*S…… (2)$$  
 
 </center>
 
@@ -92,25 +92,25 @@ The ratio of p/q is made equal to the P/Q. Under balance condition zero current 
 
 <center>
 
-$E_{ab} = \frac{P}{P+Q}  E_{ac}$
+$$E_{ab} = \frac{P}{P+Q}  E_{ac}$$
 
 </center>
 
 <center>
 
-$E_{ac} = I \left [ R + S + \frac{( p+q)r}{p+q+r} \right ]……(3)$ 
+$$E_{ac} = I \left [ R + S + \frac{( p+q)r}{p+q+r} \right ]……(3)$$ 
 
 </center>
 
 <center>
 
-$E_{amd} = I \left [ R + \frac{p}{p+q} * {\frac{(p+q)r}{(p+q+r)}} \right ]$
+$$E_{amd} = I \left [ R + \frac{p}{p+q} * {\frac{(p+q)r}{(p+q+r)}} \right ]$$
 
 </center>
 
 <center>
 
-$E_{ac} = I \left [ \frac {pr} {p+q+r} \right ]………(4) $
+$$E_{ac} = I \left [ \frac {pr} {p+q+r} \right ]………(4) $$
 
 </center>
 
@@ -118,13 +118,13 @@ For zero galvanometer deflection,
 
 <center>
 
-$\frac{P}{P+Q}*I \left [ R + \frac{p}{p+q} * {\frac{(p+q)r}{(p+q+r)}} \right ] = I \left [ \frac {pr} {p+q+r} \right ]$
+$$\frac{P}{P+Q}*I \left [ R + \frac{p}{p+q} * {\frac{(p+q)r}{(p+q+r)}} \right ] = I \left [ \frac {pr} {p+q+r} \right ]$$
 
 </center>
 
 <center>
 
-$R = \frac {P}{Q}* S + \frac {pr}{p+q+r} \left [ \frac{P}{Q} – \frac{p}{q} \right ].....(5) $ 
+$$R = \frac {P}{Q}* S + \frac {pr}{p+q+r} \left [ \frac{P}{Q} – \frac{p}{q} \right ].....(5) $$ 
 
 </center>
 
@@ -132,7 +132,7 @@ As we know that,
 
 <center>
 
-$\frac{P}{Q} = \frac{p}{q}$ 
+$$\frac{P}{Q} = \frac{p}{q}$$ 
 
 </center>
 
@@ -140,7 +140,7 @@ Then equation (5) becomes
 
 <center>
 
-$R = \frac{P}{Q} * S…… (6) $ 
+$$R = \frac{P}{Q} * S…… (6) $$ 
 
 </center>
 
