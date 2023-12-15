@@ -1,5 +1,3 @@
-## Procedure<br>
-
 **STEP 1 :** Make connections as per the instructions given below:  
           
 <table style="margin-left: 60px;font-size: 21px;">
