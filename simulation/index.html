@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Virtual Labs | Kelvin Double Bridge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  
+
+	<link rel="stylesheet" type="text/css" href="css/KelvinBridge1.css">
+  <link rel="stylesheet" href="css/demo1.css">
+  <link rel="icon" type="image/x-icon" href="images/Vlab logo.jpg">
+
+</head>
+<body data-demo-id="animation">
+	<div class="box" style="position: absolute;">
+		<div class="container1" style="position:absolute;">
+			<img src="images\Logo.png" width="95px" height="92.5px" style="margin-left: 5px; float: left;" >
+			<center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2>
+			<h2 style="background-color: black;">Kelvin Double Bridge</h2></center></div>
+			<div style="position: relative; margin-top: 100px;"><br>
+      <br>
+      </div>
+
+
+      <img src="images\mcb1.png"  onclick="mcbonoff();" width="90px" height="180px" style="margin-left:16px; position:absolute;"  id ="mcbb">
+      <div id="mcb1" style="position:absolute;"></div>
+  <!--mcb ends-->
+  <!--a meter -->
+      <!--<img src="images\A meter.png" width="170px" height="140px" style="margin-left:2px; margin-top:300px; position:absolute;">
+      <div id="Am" style="position:absolute;"></div>
+      <h3 class="text1">AMMETER</h3>-->
+
+
+
+      <div class="container2" style="position:absolute;">
+        <h3 class="text3">KELVIN DOUBLE BRIDGE KIT</h3>
+        <img src="images\Galvanometer.png" width="170px" height="150px" style="margin-left:260px; margin-top:300px; position:absolute;">
+        <h3 class="text2">GALVANOMETER</h3>
+        <div>
+                        <svg class="meter1">
+                                <polygon id="needle1" class="meter-clock1" points="129,145 137,90 145,145"></polygon>
+                                <circle class="meter-circle" r="10" cx="137" cy="145"></circle>
+                        </svg>        
+                   </div>
+        <img src="images\push1.png" width="40px" id="push" onclick="push()" height="40px" style="margin-left:440px; margin-top:445px;position:absolute;" disabled="true">
+        <input type="text" id="text_1" class="text_1" disabled>
+
+        <!--knobs code start-->
+        <div class="k1back" style="position:absolute;">
+          <img src="images\knobs part 1.png" width="80px" height="80px"
+            style="margin-left:25px; margin-top:25px; position:absolute;" id="knob1">
+          <img src="images\knobs part 2.png" width="130px" height="100px"
+            style=" margin-top:5px; position:absolute;">
+        </div>
+ <select id="select_1" class="gwd-select-li9t1" disabled="true"><sup >No. Of Bulbs</sup>
+          <option value="0" disabled selected>Multiplier</option>
+          <option value="1">1</option>
+          <option value="2">10</option>
+      </select>
+        <div class="k2back" style="position:absolute;">
+          <img src="images\knobs part 1.png" width="80px" height="80px"
+            style="margin-left:25px; margin-top:25px; position:absolute;z-index: 1;" id="knob2">
+          <img src="images\knobs part 33.png" width="130px" height="100px"
+            style="margin-top:5px; position:absolute;">
+        </div>
+ <select id="select_2" class="gwd-select-li9t2" disabled="true"><sup >No. Of Bulbs</sup>
+          <option value="0" disabled selected>x0.01&#8486;</option>
+          <option value="3">1</option>
+          <option value="4">2</option>
+          <option value="5">4</option>
+          <option value="6">6</option>
+          <option value="7">8</option>
+      </select>
+        <div class="k3back" style="position:absolute;">
+          <img src="images\knobs part 1.png" width="80px" height="80px"
+            style="margin-left:25px; margin-top:25px; position:absolute;z-index: 1;" id="knob3">
+          <img src="images\knobs part 33.png" width="130px" height="100px"
+            style="margin-top:5px; position:absolute;">
+        </div>
+ <select id="select_3" class="gwd-select-li9t3" disabled="true"><sup >No. Of Bulbs</sup>
+          <option value="0" disabled selected>x0.00002&#8486;</option>
+          <option value="8">1</option>
+          <option value="9">2</option>
+          <option value="10">3</option>
+          <option value="11">4</option>
+          <option value="12">5</option>
+      </select>
+      
+    </div>
+
+    
+    <h4 style="position:absolute; margin-top: 387px; margin-left: 165px;color:#d58643;z-index: 1;">UNKNOWN RESISTANCE</h4>
+    <h4 style="position:absolute; margin-top: 409px; margin-left: 245px;color:#d58643;z-index: 1;">BOX</h4>
+    <h4 style="position:absolute; margin-top: 134px; margin-left: 43px;color:#000">MCB</h4>
+    <h4 style="position:absolute; margin-top: 49px; margin-left: 425px;color:#fff">Multiplier (M)</h4>
+    <h4 style="position:absolute; margin-top: 50px; margin-left: 770px;color:#fff">S</h4>
+    <h4 style="position:absolute; margin-top: 285px; margin-left: 740px;color:#fff">KDB Dial</h4>
+
+
+    <div class="bal-cond">
+      <button class="bal-btn" id="btn" >Balanced Condition</button>
+      <div class="drop-content" id="drop">
+         
+      </div>
+    </div>
+
+
+
+      <div class="dropdown">
+  			<button class="dropbtn">INSTRUCTIONS</button>
+  			<div class="dropdown-content">
+   				<p><b>STEP 1 :</b> Make connections as per the instructions given below:</p>  
+          
+           <table style="margin-left: 60px;font-size: 21px;">
+            <tr>
+                <td style="border:1px solid black;"><b>From</b></td>
+                <td style="border:1px solid black;">M1</td>
+                <td style="border:1px solid black;">M2</td>
+                <td style="border:1px solid black;">C1</td>
+                <td style="border:1px solid black;">P1</td>
+                <td style="border:1px solid black;">P2</td>
+                <td style="border:1px solid black;">C2</td>
+                
+            </tr>
+            <tr>
+                <td style="border:1px solid black;"><b>To</b></td>
+                <td style="border:1px solid black;">M3</td>
+                <td style="border:1px solid black;">M4</td>
+                <td style="border:1px solid black;">C3</td>
+                <td style="border:1px solid black;">P3</td>
+                <td style="border:1px solid black;">P4</td>
+                <td style="border:1px solid black;">C4</td>
+                
+            </tr>
+        </table>
+
+
+          <p><b>NOTE: If wire is wrongly connected, Click on node number to detach the wire.</b></p>
+          <p><b>STEP 2 :</b> Click on <b>"CHECK"</b> button for checking the connections.</p>
+          <p><b>STEP 3 :</b> Click on the MCB to Turn ON the circuit.</p>
+          <p><b>STEP 4 :</b> Select the value from Multiplier dropdown.</p>
+          <p><b>STEP 5 :</b> Now, Varying the value from S and KDB dial dropdown.</p>
+          <p><b>STEP 6 :</b> Now push the RED button to check whether the condition is balanced or not.</p>
+          <p><b>STEP 7 :</b> Click on <b>"ADD"</b> button to add the values to the Observation Table when Galvanometer shows zero deflection.</p>
+          <p><b>STEP 8 :</b> Add different values to the table by selecting different value of multiplier.</p>
+          <p><b>NOTE: Balanced condition button becomes active after wrong combination alert by clicking on ADD button.</b></p>
+          <p><b>STEP 9 :</b> Click on <b>"PRINT"</b> button to print the webpage.</p>
+          <p><b>STEP 10 :</b> Click on <b>"RESET"</b> button to reset the webpage.</p>
+        </div>
+		</div>
+
+
+<div class="jtk-demo-main">
+            <!-- demo -->
+            <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
+                <div class="littledot" id="ld1"></br><br><a href="#" class="cmdLink detach" rel="ld1" Style="color:orangered" id="dis1"><b>M1</b></a></div>
+                <div class="littledot" id="ld2"></br><br><a href="#" class="cmdLink detach" rel="ld2" Style="color:orangered" id="dis2"><b>M2</b></a></div>
+                <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3" Style="color:orangered; position: absolute; top: 25px;" id="dis3">M3</a></div>
+                <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4" Style="color:orangered; position: absolute; top: 25px;" id="dis4">M4</a></div>
+                <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5" Style="color:orangered; position: absolute; top: 25px;" id="dis5">C1</a></div>     
+                <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6" Style="color:orangered; position: absolute; top: 25px;" id="dis6">P1</a></div>
+                <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7" Style="color:orangered; position: absolute; top: 25px;" id="dis7">P2</a></div>     
+                <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8" Style="color:orangered; position: absolute; top: 25px;" id="dis8">C2</a></div>
+
+                <div class="resbox">
+                <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9" Style="color:orangered; position: absolute; top: 25px;" id="dis9">C3</a></div>
+                <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10" Style="color:orangered; position: absolute; top: 25px;" id="dis10">P3</a></div>
+                <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11" Style="color:orangered; position: absolute; top: 25px;" id="dis11">P4</a></div>
+                <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12" Style="color:orangered; position: absolute; top: 25px;" id="dis12">C4</a></div>
+                </div>
+<br><br>
+
+            
+        </div><br>
+       
+        <!-- JS -->
+        <script src="js/jsplumb1.js"></script>
+    
+    <div class="btn" style="position:absolute; margin-left: 10px; margin-top: -200px;">        
+    <input type="button" value="CHECK" class="check" id="check-button" style="position:absolute; top:670px;left:250px;">
+		<input type="button" value="ADD" id="add" style="position:absolute; top: 670px; left:160px;" onclick="addtotable();" disabled>
+		<input type="button" value="RESET" id="reset" id="button" style="position:absolute; top:670px;left:510px;" onclick="window.location.href = 'index.html';">
+		<input type="button" value="PRINT" id="print" style="position:absolute; top:670px;left:645px" onclick="window.print()">	
+    </div>
+
+		<div class="formula" style="position:absolute;">
+  			<center><h2><u>FORMULA</u></h2></center>
+  			<div><p id="formula-text">Unknown Resistance (R) = Multiplier * S + KDB Dial </p>
+  				
+			</div>
+		</div>
+
+
+		<div style="margin-top: 200px; position:absolute;">
+      <h3 style="position:absolute; margin-top: -30px; margin-left: 1065px;">OBSERVATION TABLE</h3>
+			<table class="a" id="tb1" style="margin-left: 950px;">
+  			<tbody>
+				<tr>
+          <th>S.No.</th>
+          <th>Multiplier </th>
+          <th>KDB Dial (Ω)</th>
+          <th>R (Ω)</th>
+        </tr>
+  			</tbody>
+			</table>
+		</div>
+
+		<div class="copyright" style="position:absolute">&copy 2022 Virtual Labs, IIT Roorkee</div>
+              
+    </div>
+
+<script src="../assets/js/iframeResize.js"></script></body>
+<script src="js/demo1.js"></script>   
+<script src="js/demo2.js"></script>   
+</html>
