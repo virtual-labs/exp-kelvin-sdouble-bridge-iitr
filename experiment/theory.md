@@ -151,7 +151,7 @@ For obtaining the appropriate result, it is very essentials that the ratio of th
 
 ### Advantages of Kelvin Double Bridge
 
-* It can measure the resistance value in the range of 0.1 µA to 1.0 A.
+* It can measure the resistance value in the range of 0.1 µΩ to 1.0 Ω.
 * Power consumption is less.
 * Simple in construction.
 * Sensitivity is high.
